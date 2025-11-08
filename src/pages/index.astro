@@ -4,6 +4,7 @@ import {TextGenerateEffect} from "@/components/ui/text-generate-effect.tsx"
 import {ColourfulText} from "@/components/ui/colourful-text.tsx"
 import {TimelineDemo} from "@/components/ui/examples/timelinedemo"
 import Layout from '../layouts/Layout.astro';
+import Scrolltotop from "@/components/Scrolltotop.astro";
 
 const props = Astro.props;
 ---
@@ -40,6 +41,7 @@ const props = Astro.props;
 
 		<section class=" mt-12">
 			<TimelineDemo client:load/>
+			<Scrolltotop />
 		</section>
 	</main>
 </Layout>
