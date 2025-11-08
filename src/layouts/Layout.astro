@@ -1,3 +1,19 @@
+---
+import '../styles/global.css'
+import Header from '@/components/layout/Header.astro';
+interface Props {
+	title?: string;
+	description?: string;
+	class?: string;
+}
+
+const{ 
+		title = 'Casa Montis Restaurante', 
+		description = 'Restaurante de comida Gourmet en Palermo - Huila, Disfruta de la mejor comida de la región, con un ambiente acogedor y un servicio excepcional. Aqui encontrarás una amplia 	variedad de platos de alta calidad, desde platos tradicionales hasta platos innovadores.', 
+		class: className 
+	} = Astro.props;
+
+---
 <!doctype html>
 <html lang="en">
 	<head>
@@ -5,18 +21,27 @@
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
+		<meta name="description" content={description} />
+		<title>{title}</title>
 	</head>
 	<body>
+		<Header />
 		<slot />
 	</body>
 </html>
 
 <style>
-	html,
-	body {
+	html, body {
+		background-color: #0A0A0A;
 		margin: 0;
 		width: 100%;
 		height: 100%;
+  		font-family: 'Onest Variable', sans-serif;
+		font-display: swap;
+	}
+	:root {
+		scrollbar-color: #4848484a transparent;
+		scrollbar-width: thin;
+		scroll-behavior: smooth;
 	}
 </style>

@@ -1,0 +1,10 @@
+---
+export interface Props {
+    class?: string;
+}
+
+const {class: className } = Astro.props;
+---
+<section class={`${className} container w-screen h-auto`}>
+    <slot />
+</section>

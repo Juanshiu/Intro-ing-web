@@ -1,11 +1,45 @@
 ---
-import Welcome from '../components/Welcome.astro';
+import Section from "@/components/Section.astro"
+import {TextGenerateEffect} from "@/components/ui/text-generate-effect.tsx"
+import {ColourfulText} from "@/components/ui/colourful-text.tsx"
+import {TimelineDemo} from "@/components/ui/examples/timelinedemo"
 import Layout from '../layouts/Layout.astro';
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+const props = Astro.props;
 ---
 
 <Layout>
-	<Welcome />
+	<main>
+		<section class="relative">
+			<div class="absolute inset-0 z-0 bg-black opacity-50"></div>
+			<video
+				src="video/bg.mp4"
+				class=" aspect-video absolute top-0 right-0 w-full h-screen object-cover blur-2xl -z-10"
+				loop
+				autoplay
+				muted
+			/>
+			<video
+				src="video/bg.mp4"
+				class=" aspect-video w-full h-screen object-cover"
+				loop
+				autoplay
+				muted
+			/>
+			
+			<article class="absolute inset-0 flex flex-col items-center justify-center p-4 text-center gap-4 text-sm md:text-base text-white animate-duration-1000 animate-ease-in-out ">
+				<h1 class="text-6xl lg:text-8xl font-bold text-center text-white relative z-2 font-sans animate-fade-down">
+					La ingeniería del Siglo <ColourfulText text="XXI" client:load /> <br />
+				</h1>
+				<TextGenerateEffect client:load
+					words="El siglo de la información, la conectividad y la sostenibilidad."
+					className=" animate-fade-up text-white text text-xl lg:text-2xl"
+				/>
+			</article>
+		</section>
+
+		<section class=" mt-12">
+			<TimelineDemo client:load/>
+		</section>
+	</main>
 </Layout>

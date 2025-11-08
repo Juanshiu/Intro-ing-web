@@ -1,0 +1,116 @@
+[
+  {
+    "titulo": "Expansión del internet y la Web 2.0",
+    "año": "2000–2004",
+    "parrafo": "La Web 2.0 marcó el paso de páginas estáticas a plataformas interactivas donde los usuarios podían crear y compartir contenido (como Wikipedia, YouTube y Facebook). Esto impulsó la ingeniería de software orientada a la experiencia del usuario y aplicaciones dinámicas.",
+    "imagenes": ["/img/lineatiempo/1.png"]
+  },
+  {
+    "titulo": "Simulación digital",
+    "año": "2000–2004",
+    "parrafo": "Herramientas CAD y CAE como SolidWorks, ANSYS y CATIA se consolidan en ingeniería mecánica, civil y aeroespacial, permitiendo diseñar, modelar y probar productos antes de fabricarlos físicamente.",
+    "imagenes": ["/img/lineatiempo/2.png"]
+  },
+  {
+    "titulo": "Proyecto Genoma Humano",
+    "año": "2003",
+    "parrafo": "Se completa el mapa completo del ADN humano, identificando todos los genes y secuencias químicas. Este proyecto impulsó avances en bioingeniería, medicina personalizada e ingeniería genética.",
+    "imagenes": ["/img/lineatiempo/3.png"]
+  },
+  {
+    "titulo": "Nacimiento de la computación en la nube",
+    "año": "2006",
+    "parrafo": "Con la aparición de AWS, las empresas comienzan a utilizar servidores remotos para almacenamiento y procesamiento. Surge el modelo SaaS, transformando la infraestructura tecnológica global.",
+    "imagenes": ["/img/lineatiempo/4.png"]
+  },
+  {
+    "titulo": "Revolución móvil",
+    "año": "2007",
+    "parrafo": "El lanzamiento del iPhone y Android transforma el desarrollo hacia aplicaciones móviles, integrando ingeniería electrónica, telecomunicaciones y software.",
+    "imagenes": ["/img/lineatiempo/5.png"]
+  },
+  {
+    "titulo": "Avances en ingeniería aeroespacial",
+    "año": "2008",
+    "parrafo": "Materiales compuestos y simulaciones avanzadas permiten aeronaves más livianas y eficientes. SpaceX comienza a revolucionar el sector espacial privado.",
+    "imagenes": ["/img/lineatiempo/6.png"]
+  },
+  {
+    "titulo": "Cripto moneda y Blockchain",
+    "año": "2009–2017",
+    "parrafo": "Con el nacimiento de Bitcoin y luego Ethereum, se abre una nueva área en criptografía, seguridad informática y sistemas distribuidos.",
+    "imagenes": ["/img/lineatiempo/7.png"]
+  },
+  {
+    "titulo": "Impresión 3D",
+    "año": "2010–2012",
+    "parrafo": "La fabricación aditiva permite crear objetos tridimensionales por capas. Democratiza el prototipado en medicina, arquitectura y manufactura.",
+    "imagenes": ["/img/lineatiempo/8.png"]
+  },
+  {
+    "titulo": "Robótica y automatización avanzada",
+    "año": "2010–2014",
+    "parrafo": "La robótica industrial incorpora sensores, visión artificial y control inteligente. Surgen los cobots, capaces de trabajar junto a humanos.",
+    "imagenes": ["/img/lineatiempo/9.png"]
+  },
+  {
+    "titulo": "Energías renovables",
+    "año": "2010–2014",
+    "parrafo": "La energía solar y eólica se masifica gracias a mejoras tecnológicas. Esto impulsa la ingeniería ambiental y energética enfocada en sostenibilidad.",
+    "imagenes": ["/img/lineatiempo/10.png"]
+  },
+  {
+    "titulo": "Inteligencia Artificial moderna",
+    "año": "2012",
+    "parrafo": "El modelo AlexNet demuestra el potencial del deep learning, superando métodos tradicionales en reconocimiento de imágenes y voz.",
+    "imagenes": ["/img/lineatiempo/11.png"]
+  },
+  {
+    "titulo": "Internet de las Cosas (IoT)",
+    "año": "2015",
+    "parrafo": "Dispositivos físicos se conectan a internet (sensores, electrodomésticos, maquinaria industrial). Requiere ingeniería en sistemas embebidos y análisis de datos.",
+    "imagenes": ["/img/lineatiempo/12.png"]
+  },
+  {
+    "titulo": "Vehículos autónomos y eléctricos",
+    "año": "2016–2019",
+    "parrafo": "Avances en IA, sensores y baterías permiten autos eléctricos inteligentes. Combina ingeniería eléctrica, mecánica y software.",
+    "imagenes": ["/img/lineatiempo/13.png"]
+  },
+  {
+    "titulo": "Big Data",
+    "año": "2015–2018",
+    "parrafo": "El manejo masivo de datos permite análisis predictivo y optimización de procesos industriales mediante minería de datos.",
+    "imagenes": ["/img/lineatiempo/14.png"]
+  },
+  {
+    "titulo": "IA aplicada a todas las ramas",
+    "año": "2018–2019",
+    "parrafo": "La IA se integra en mantenimiento predictivo, diseño automatizado y control de procesos, expandiéndose a casi todas las áreas de la ingeniería.",
+    "imagenes": ["/img/lineatiempo/15.png"]
+  },
+  {
+    "titulo": "Transformación digital",
+    "año": "2020–2022",
+    "parrafo": "La pandemia acelera la digitalización: trabajo remoto, automatización y migración a la nube. Cambia cómo se diseñan soluciones tecnológicas.",
+    "imagenes": ["/img/lineatiempo/16.png"]
+  },
+  {
+    "titulo": "Transición energética",
+    "año": "2021–2025",
+    "parrafo": "Nuevas tecnologías de baterías, hidrógeno verde y energías limpias impulsan sistemas sostenibles. La ingeniería se orienta hacia energías renovables.",
+    "imagenes": ["/img/lineatiempo/17.png"]
+  },
+  {
+    "titulo": "IA generativa",
+    "año": "2022–2025",
+    "parrafo": "Modelos como ChatGPT, DALL·E y Gemini permiten generar código, diseño y documentación automáticamente. Surge la ingeniería asistida por IA.",
+    "imagenes": ["/img/lineatiempo/18.png"]
+  },
+  {
+    "titulo": "Computación cuántica",
+    "año": "2023–2025",
+    "parrafo": "IBM, Google y D-Wave desarrollan procesadores cuánticos funcionales. Se abren nuevos paradigmas en simulación, optimización e inteligencia artificial.",
+    "imagenes": ["/img/lineatiempo/19.png"]
+  }
+]

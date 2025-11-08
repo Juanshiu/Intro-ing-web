@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Paneles solares de alta eficiencia (2000–actualidad)",
+    "description": "Avances en materiales fotovoltaicos como el silicio monocristalino y las perovskitas permitieron que los paneles solares sean más eficientes y baratos, impulsando la ingeniería energética y la transición hacia energías renovables.",
+    "link": "",
+    "thumbnail": "/img/inventos/1.png"
+  },
+  {
+    "title": "Bitcoin (2009)",
+    "description": "Primera criptomoneda descentralizada basada en blockchain, creada por Satoshi Nakamoto. Introdujo un sistema de registro digital seguro y sin intermediarios, cambiando la ingeniería de software y seguridad informática.",
+    "link": "",
+    "thumbnail": "/img/inventos/2.png"
+  },
+  {
+    "title": "ChatGPT (2022)",
+    "description": "Modelo de inteligencia artificial generativa desarrollado por OpenAI. Utiliza redes neuronales avanzadas para comprender y generar texto, transformando la ingeniería de software, la educación y los procesos de automatización.",
+    "link": "",
+    "thumbnail": "/img/inventos/3.png"
+  },
+  {
+    "title": "Computación en la nube (2006)",
+    "description": "Con el lanzamiento comercial de Amazon Web Services, se vuelve posible acceder a servidores y almacenamiento remoto, revolucionando el desarrollo y despliegue de software e infraestructura TI.",
+    "link": "",
+    "thumbnail": "/img/inventos/4.png"
+  },
+  {
+    "title": "Smartphone (2007)",
+    "description": "El iPhone introduce la era de los teléfonos inteligentes con pantalla táctil y acceso a Internet, fusionando la ingeniería electrónica, de software y telecomunicaciones en un solo dispositivo.",
+    "link": "",
+    "thumbnail": "/img/inventos/5.png"
+  },
+  {
+    "title": "Impresora 3D (2005–2010)",
+    "description": "Permite fabricar objetos capa por capa a partir de modelos digitales. Ha transformado la manufactura, medicina y prototipado gracias a su precisión y versatilidad.",
+    "link": "",
+    "thumbnail": "/img/inventos/6.png"
+  },
+  {
+    "title": "Vehículo eléctrico moderno (2008–actualidad)",
+    "description": "Con Tesla y otras marcas, los autos eléctricos se vuelven comerciales. Integran ingeniería eléctrica, mecánica y software para movilidad inteligente y sostenible.",
+    "link": "",
+    "thumbnail": "/img/inventos/7.jpg"
+  },
+  {
+    "title": "Redes sociales (2004–actualidad)",
+    "description": "Facebook, YouTube y Twitter transformaron la comunicación digital global y el análisis de datos, impulsando nuevas áreas en ingeniería de software y ciencia de datos.",
+    "link": "",
+    "thumbnail": "/img/inventos/8.png"
+  },
+  {
+    "title": "Big Data (2010–actualidad)",
+    "description": "Conjunto de herramientas para procesar grandes volúmenes de datos en tiempo real. Fundamental para análisis predictivo, optimización industrial y automatización inteligente.",
+    "link": "",
+    "thumbnail": "/img/inventos/9.png"
+  },
+  {
+    "title": "Robots colaborativos (2012)",
+    "description": "Robots industriales diseñados para trabajar junto a humanos sin barreras físicas. Combinan ingeniería mecánica, sensórica e inteligencia artificial.",
+    "link": "",
+    "thumbnail": "/img/inventos/10.png"
+  },
+  {
+    "title": "Cohetes reutilizables (2015)",
+    "description": "Desarrollados por SpaceX, permiten reutilizar etapas de cohetes, reduciendo drásticamente costos y cambiando la ingeniería aeroespacial moderna.",
+    "link": "",
+    "thumbnail": "/img/inventos/11.png"
+  },
+  {
+    "title": "Baterías de estado sólido (2023–en desarrollo)",
+    "description": "Tecnología de almacenamiento energético más segura y eficiente que las baterías de litio convencionales, con gran potencial en ingeniería eléctrica y automotriz.",
+    "link": "",
+    "thumbnail": "/img/inventos/12.png"
+  },
+  {
+    "title": "GPS (Sistema de Posicionamiento Global) (2000–actualidad)",
+    "description": "Sistema que usa satélites para saber nuestra posición exacta en la Tierra. Se usa en mapas, transporte y navegación en celulares. Ha mejorado la ingeniería en geolocalización y sistemas de navegación.",
+    "link": "",
+    "thumbnail": "/img/inventos/13.png"
+  },
+  {
+    "title": "Drones civiles y comerciales (2010–presente)",
+    "description": "Vehículos aéreos sin piloto controlados a distancia. Se usan para grabación, vigilancia, entregas y exploración en zonas difíciles. Han impulsado la ingeniería en robótica y sistemas de control.",
+    "link": "",
+    "thumbnail": "/img/inventos/14.png"
+  },
+  {
+    "title": "Realidad Virtual y Aumentada (2016–presente)",
+    "description": "La realidad virtual es una tecnología que permite sumergir al usuario en un entorno digital mediante gafas o visores especiales. El usuario puede 'sentir' que está dentro de otro espacio, como una fábrica, un videojuego o una simulación de vuelo.",
+    "link": "",
+    "thumbnail": "/img/inventos/15.png"
+  }
+]
