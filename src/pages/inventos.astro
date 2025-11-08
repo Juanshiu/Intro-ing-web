@@ -1,9 +1,0 @@
----
-import Layout from '../layouts/Layout.astro';
-import { HeroParallax } from '../components/ui/hero-parallax';
-import inventosData from '../data/inventos.json';
----
-
-<Layout title="Inventos del Siglo 21">
-  <HeroParallax products={inventosData} client:load />
-</Layout>
