@@ -8,8 +8,6 @@ import {
   MotionValue,
 } from "motion/react";
 
-
-
 export const HeroParallax = ({
   products,
 }: {
@@ -20,9 +18,9 @@ export const HeroParallax = ({
     thumbnail: string;
   }[];
 }) => {
-  const firstRow = products.slice(0, 5);
-  const secondRow = products.slice(5, 10);
-  const thirdRow = products.slice(10, 15);
+  const firstRow = products.slice(0, 5).map((product, index) => ({ ...product, id: index }));
+  const secondRow = products.slice(5, 10).map((product, index) => ({ ...product, id: index + 5 }));
+  const thirdRow = products.slice(10, 15).map((product, index) => ({ ...product, id: index + 10 }));
   const ref = React.useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -105,7 +103,7 @@ export const HeroParallax = ({
 export const Header = () => {
   return (
     <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full  left-0 top-0">
-      <h1 className="text-2xl md:text-7xl font-bold text-white">
+      <h1 className="text-5xl md:text-7xl font-bold text-white">
         Tecnología que Cambió Nuestra Era
       </h1>
       <p className="max-w-2xl text-base md:text-xl mt-8 text-neutral-200">
@@ -124,9 +122,12 @@ export const ProductCard = ({
     description?: string;
     link: string;
     thumbnail: string;
+    id?: number;
   };
   translate: MotionValue<number>;
 }) => {
+  const linkUrl = product.id !== undefined ? `/inventos/${product.id}` : product.link || '#';
+  
   return (
     <motion.div
       style={{
@@ -139,7 +140,7 @@ export const ProductCard = ({
       className="group/product h-96 w-[30rem] relative shrink-0"
     >
       <a
-        href={product.link}
+        href={linkUrl}
         className="block group-hover/product:shadow-2xl "
       >
         <img
