@@ -4,22 +4,21 @@ import inventoresData from "@/data/inventores.json";
 import {Spotlight} from "@/components/ui/Spotlight";
 ---
 <Layout title="Inventores e Ingenieros del Siglo XXI">
-    <div class="min-h-screen w-full bg-black relative">
-    <Spotlight client:load/>
-    <Spotlight client:load/>
-    {/* Vercel Grid */}
-    <div
-      class="absolute inset-0 opacity-80"
-      style={{
-        backgroundImage: `
-          linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px),
-          linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px)
-        `,
-        backgroundSize: "60px 60px",
-      }}
-    />
-    <main class="min-h-screen text-white pt-20 md:pt-24">
-        
+    
+    <main class="min-h-screen w-full text-white pt-20 md:pt-24 relative z-10 overflow-hidden">
+        <Spotlight client:load/>
+        <Spotlight client:load/>
+        <div
+            class="absolute inset-0 opacity-80"
+            style={{
+                backgroundImage: `
+                linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px)
+                `,
+                backgroundSize: "60px 60px",
+            }}
+            />
+        </div>
         <!-- Hero Section -->
         <section class="relative py-20 overflow-hidden">
             <div class="relative max-w-7xl mx-auto px-8 text-center">
@@ -85,7 +84,6 @@ import {Spotlight} from "@/components/ui/Spotlight";
             </div>
         </section>
     </main>
-  </div>
     
 </Layout>
 
