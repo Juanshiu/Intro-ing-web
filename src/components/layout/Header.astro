@@ -32,6 +32,15 @@ const currentPath = Astro.url.pathname;
                 >
                     Inventos
                 </a>
+                <a 
+                    href="/inventores" 
+                    class:list={[
+                        " text-normal font-sans transition-all duration-300 hover:text-purple-400",
+                        currentPath === "/inventores" ? "text-purple-400 border-b-2 border-purple-400" : "text-white"
+                    ]}
+                >
+                    Inventores
+                </a>
             </div>
         </div>
     </nav>
