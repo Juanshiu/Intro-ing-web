@@ -5,5 +5,10 @@ import inventosData from '@/data/inventos.json';
 ---
 
 <Layout title="Inventos del Siglo 21">
-  <HeroParallax products={inventosData} client:load />
+  <main class=" min-h-screen w-full bg-black relative">
+    <HeroParallax products={inventosData} client:load />
+    <div class=" bg-black w-full lg:h-36">
+
+    </div>
+  </main>
 </Layout>

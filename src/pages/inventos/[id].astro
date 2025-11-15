@@ -2,6 +2,7 @@
 import Layout from '@/layouts/Layout.astro';
 import inventosData from '@/data/inventos.json';
 import Boton from '@/components/Boton.astro';
+import Boton2 from '@/components/Boton2.astro';
 
 export async function getStaticPaths() {
   return inventosData.map((invento, index) => ({
@@ -38,11 +39,11 @@ const { invento } = Astro.props;
                 <h2 class="text-2xl md:text-3xl font-bold mb-4 text-red-400">Creador</h2>
                 <div class="flex flex-col md:flex-row gap-8 items-center justify-between">
                     <span class="text-3xl md:text-5xl lg:text-7xl text-wrap font-semibold text-gray-300 flex-1">{invento.creator}</span>
-                    <a href={invento.link} target="_blank" class="relative w-full md:w-96 h-auto shrink-0 isolate">
+                    <a href={`/inventores/${invento.creatorSlug}`} class="relative transition: w-full md:w-96 h-auto shrink-0 isolate group">
                         <div class="absolute inset-0 -z-10">
-                            <img src={invento.photo} class="w-full h-full object-cover blur-lg scale-105" alt="">
+                            <img src={invento.photo} transition:name="creador" class=" w-full h-full object-cover blur-lg scale-105" alt="">
                         </div>
-                        <img src={invento.photo} class="relative w-full h-auto object-contain rounded-lg hover:scale-105 transition-transform" alt={invento.creator}>
+                        <img src={invento.photo} class="relative w-full h-auto object-contain rounded-lg group-hover:scale-105 transition-transform" alt={invento.creator}>
                     </a>
                 </div>
             </article>
@@ -65,15 +66,19 @@ const { invento } = Astro.props;
                 <p class="text-lg text-gray-300 leading-relaxed">{invento.impact}</p>
             </article>
 
-            <!-- Back Button -->
-            <article class="mt-16 text-center">
+            <!-- Navigation Buttons -->
+            <article class="mt-16 flex flex-col sm:flex-row gap-8 justify-center items-center">
+                <Boton text='Inventos' link="/inventos" />
+                <Boton2 text='Conocer al Inventor' link={`/inventores/${invento.creatorSlug}`} />
                 <!-- <a 
-                    href="/inventos" 
-                    class="inline-block px-8 py-4 bg-blue-600 hover:bg-blue-700 rounded-lg text-white font-semibold transition-all duration-300 transform hover:scale-105"
+                    href={`/inventores/${invento.creatorSlug}`}
+                    class="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-red-600 to-pink-600 hover:from-red-700 hover:to-pink-700 rounded-lg text-white font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
                 >
-                    ← Volver a Inventos
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/>
+                    </svg>
+                    <span>Conocer al Inventor</span>
                 </a> -->
-                <Boton link="/inventos" />
             </article>
         </section>
     </main>

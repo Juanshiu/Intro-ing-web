@@ -1,8 +1,9 @@
 ---
 interface Props {
   link?: string;
+  text?: string;
 }
-const { link } = Astro.props;
+const { link, text } = Astro.props;
 ---
 <!-- From Uiverse.io by S4tyendra --> 
 <a href={link} class="flex items-center justify-center">
@@ -17,7 +18,7 @@ const { link } = Astro.props;
         <div class="relative z-10 flex items-center space-x-3">
           <span
             class="transition-all duration-500 group-hover:translate-x-1.5 group-hover:text-emerald-300"
-            >Volver a Inventos</span
+            >{text}</span
           >
           <svg
             xmlns="http://www.w3.org/2000/svg"

@@ -1,0 +1,159 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import inventoresData from '@/data/inventores.json';
+import Boton from '@/components/Boton.astro';
+import Boton2 from '@/components/Boton2.astro';
+
+export async function getStaticPaths() {
+  return inventoresData.map((inventor) => ({
+    params: { id: inventor.slug },
+    props: { inventor }
+  }));
+}
+
+const { inventor } = Astro.props;
+---
+
+<Layout title={inventor.name}>
+    
+    <main class="min-h-screen relative text-white pt-20 md:pt-24">
+        <div
+            class="absolute inset-0 z-0"
+            style={{
+                background: `
+                radial-gradient(ellipse 120% 80% at 70% 20%, rgba(255, 20, 147, 0.15), transparent 50%),
+                radial-gradient(ellipse 100% 60% at 30% 10%, rgba(0, 255, 255, 0.12), transparent 60%),
+                radial-gradient(ellipse 90% 70% at 50% 0%, rgba(138, 43, 226, 0.18), transparent 65%),
+                radial-gradient(ellipse 110% 50% at 80% 30%, rgba(255, 215, 0, 0.08), transparent 40%),
+                #000000
+                `,
+            }}
+        />
+        
+        <!-- Hero Section con Foto del Inventor -->
+        <section class="relative min-h-[70vh] overflow-hidden flex items-center">
+            <!-- Background Pattern -->
+        
+            <div class="relative max-w-7xl mx-auto px-8 py-16 w-full">
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <!-- Información del Inventor -->
+                    <div class="space-y-6">
+                        <div class="inline-block px-4 py-2 bg-blue-600/30 border border-blue-400/50 rounded-full text-blue-300 text-sm font-semibold">
+                            {inventor.field}
+                        </div>
+                        <h1 class="text-5xl md:text-7xl font-bold bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
+                            {inventor.name}
+                        </h1>
+                        <div class="flex items-center gap-4 text-gray-300 text-lg">
+                            <span class="flex items-center gap-2">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
+                                </svg>
+                                {inventor.nationality}
+                            </span>
+                            <span class="text-gray-500">•</span>
+                            <span>{inventor.birthYear} - {inventor.deathYear}</span>
+                        </div>
+                        <p class="text-xl text-gray-300 leading-relaxed">
+                            {inventor.biography}
+                        </p>
+                    </div>
+
+                    <!-- Foto del Inventor -->
+                    <div class="relative group">
+                        <div class="absolute inset-0 bg-gradient-to-br from-blue-500/30 to-purple-500/30 rounded-2xl blur-xl group-hover:blur-2xl transition-all"></div>
+                        <div class="relative bg-gradient-to-br from-blue-900/20 to-purple-900/20 p-1 rounded-2xl border border-blue-500/30">
+                            <img 
+                                src={inventor.photo} 
+                                alt={inventor.name}
+                                transition:name="creador"
+                                class="w-full h-auto object-cover rounded-xl"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Secciones de Contenido -->
+        <section class=" relative max-w-7xl mx-auto px-8 py-16 space-y-16">
+            
+            <!-- Contribuciones a la Ingeniería -->
+            <article class="space-y-6">
+                <div class="flex items-center gap-4 mb-6">
+                    <div class="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-500 rounded-lg flex items-center justify-center">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+                        </svg>
+                    </div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-blue-400">Contribuciones a la Ingeniería</h2>
+                </div>
+                <div class="bg-gradient-to-br from-blue-900/20 to-purple-900/20 rounded-xl p-8 border border-blue-500/20">
+                    <p class="text-lg text-gray-300 leading-relaxed">
+                        {inventor.engineeringContributions}
+                    </p>
+                </div>
+            </article>
+
+            <!-- Legado e Impacto -->
+            <article class="space-y-6">
+                <div class="flex items-center gap-4 mb-6">
+                    <div class="w-12 h-12 bg-gradient-to-br from-green-500 to-emerald-500 rounded-lg flex items-center justify-center">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                        </svg>
+                    </div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-green-400">Legado e Impacto</h2>
+                </div>
+                <div class="bg-gradient-to-br from-green-900/20 to-emerald-900/20 rounded-xl p-8 border border-green-500/20">
+                    <p class="text-lg text-gray-300 leading-relaxed">
+                        {inventor.legacy}
+                    </p>
+                </div>
+            </article>
+
+            <!-- Logros Destacados -->
+            <article class="space-y-6">
+                <div class="flex items-center gap-4 mb-6">
+                    <div class="w-12 h-12 bg-gradient-to-br from-yellow-500 to-orange-500 rounded-lg flex items-center justify-center">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/>
+                        </svg>
+                    </div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-yellow-400">Logros Destacados</h2>
+                </div>
+                <div class="grid md:grid-cols-2 gap-4">
+                    {inventor.achievements.map((achievement: string) => (
+                        <div class="bg-gradient-to-br from-yellow-900/20 to-orange-900/20 rounded-lg p-6 border border-yellow-500/20 flex items-start gap-3 hover:border-yellow-500/40 transition-colors">
+                            <svg class="w-6 h-6 text-yellow-400 flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-gray-300">{achievement}</span>
+                        </div>
+                    ))}
+                </div>
+            </article>
+
+            <!-- Botones de Navegación -->
+            <article class="flex flex-col sm:flex-row gap-8 justify-center items-center pt-8">
+                <Boton text='Inventores' link="/inventores" />
+                <Boton2 text='Ver Invento Relacionado' link={`/inventos/${inventor.relatedInvention}`} />
+                <!-- <a 
+                    href={`/inventos/${inventor.relatedInvention}`}
+                    class="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 rounded-lg text-white font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+                >
+                    <span>Ver Invento Relacionado</span>
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
+                    </svg>
+                </a> -->
+            </article>
+        </section>
+    </main>
+</Layout>
+
+<style>
+  main {
+    font-family: system-ui, -apple-system, sans-serif;
+  }
+</style>
