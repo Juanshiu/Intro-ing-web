@@ -1,0 +1,268 @@
+[
+  {
+    "slug": "charles-fritts",
+    "name": "Charles Fritts",
+    "photo": "/img/inventores/charlesfritts.webp",
+    "birthYear": "1850",
+    "deathYear": "1903",
+    "nationality": "Estadounidense",
+    "field": "Ingeniería Eléctrica y Energía Solar",
+    "biography": "Charles Fritts fue un pionero visionario en el campo de la energía solar fotovoltaica, considerado el inventor de la primera célula solar funcional de la historia. En 1883, desarrolló un dispositivo revolucionario que convertía luz solar directamente en electricidad, adelantándose más de un siglo a la revolución de energía renovable que transformaría el mundo. Aunque la eficiencia de su célula solar de selenio era apenas del 1%, estableció los fundamentos científicos y de ingeniería que eventualmente permitirían el desarrollo de paneles solares modernos con eficiencias superiores al 20%.",
+    "engineeringContributions": "Fritts aplicó principios fundamentales de ingeniería eléctrica y ciencia de materiales para crear la primera célula fotovoltaica práctica, utilizando selenio recubierto con una delgada capa de oro como semiconductor. Su diseño ingenieril demostró el efecto fotovoltaico descubierto por Alexandre Edmond Becquerel en 1839, llevándolo del laboratorio a una aplicación práctica tangible. Aunque limitada por la tecnología de materiales de su época, su trabajo estableció los principios de ingeniería de conversión fotoeléctrica: optimización de semiconductores, gestión de interfaces conductor-semiconductor, y maximización de área de captura solar. Su enfoque metodológico inspiró generaciones de ingenieros que eventualmente desarrollarían células de silicio cristalino, arseniuro de galio, y perovskitas modernas.",
+    "legacy": "El legado de Fritts en ingeniería es monumental. Demostró que la energía solar podía convertirse directamente en electricidad sin partes móviles, calor intermedio o combustibles, un concepto revolucionario en la era del vapor y carbón. Su trabajo visionario estableció las bases de la ingeniería fotovoltaica moderna, un campo que hoy emplea a millones de ingenieros globalmente y genera cientos de gigawatts de electricidad limpia. Inspiró el desarrollo de células de silicio en los Bell Labs (1954) que alcanzaron 6% de eficiencia, y eventualmente las tecnologías modernas de doble capa, tándem, y bifaciales. Su visión de aprovechar la energía solar mediante ingeniería avanzada está finalmente realizándose a escala planetaria.",
+    "relatedInvention": 0,
+    "achievements": [
+      "Primera célula solar funcional de la historia (1883)",
+      "Pionero del efecto fotovoltaico aplicado",
+      "Fundador conceptual de la ingeniería fotovoltaica",
+      "Inspiración para la revolución de energía renovable"
+    ]
+  },
+  {
+    "slug": "satoshi-nakamoto",
+    "name": "Satoshi Nakamoto",
+    "photo": "/img/inventores/satoshinakamoto.jpg",
+    "birthYear": "Desconocido",
+    "deathYear": "N/A",
+    "nationality": "Desconocida",
+    "field": "Ingeniería de Software, Criptografía y Sistemas Distribuidos",
+    "biography": "Satoshi Nakamoto es el seudónimo del creador o grupo de creadores anónimos de Bitcoin, la primera criptomoneda descentralizada del mundo. En 2008, publicó el whitepaper 'Bitcoin: A Peer-to-Peer Electronic Cash System', que presentó una solución ingeniosa al problema del doble gasto en sistemas de dinero digital sin autoridad central. Su identidad permanece como uno de los mayores misterios de la era digital moderna. A pesar de poseer aproximadamente 1 millón de bitcoins (valorados en decenas de miles de millones de dólares), nunca ha gastado ninguno, demostrando un compromiso extraordinario con el proyecto sobre ganancia personal.",
+    "engineeringContributions": "Nakamoto resolvió el problema del consenso bizantino en redes distribuidas no confiables mediante la brillante combinación de criptografía de clave pública, funciones hash criptográficas (SHA-256), prueba de trabajo (Proof of Work), y teoría de juegos económicos en un sistema de ingeniería coherente y elegante. Diseñó la blockchain como una estructura de datos inmutable distribuida, implementó el mecanismo de minería que incentiva la honestidad mediante recompensas económicas, y creó un protocolo peer-to-peer resistente a censura. Su código original de Bitcoin (C++) demostró excelencia en ingeniería de software: modular, eficiente y sorprendentemente libre de bugs críticos. Estableció los fundamentos de ingeniería para sistemas descentralizados tolerantes a fallas bizantinas que operan sin confianza centralizada.",
+    "legacy": "El impacto de Nakamoto en la ingeniería de sistemas distribuidos es comparable al de Tim Berners-Lee en la web. Creó un paradigma completamente nuevo: sistemas de consenso descentralizado sin autoridad central, imposible según la teoría clásica de bases de datos distribuidas. Su blockchain inspiró más de 20,000 criptomonedas, plataformas de contratos inteligentes (Ethereum), finanzas descentralizadas (DeFi), NFTs, y aplicaciones en cadena de suministro, identidad digital, registros médicos y sistemas de votación. Demostró que la ingeniería podía crear instituciones sociales (dinero) mediante código y matemáticas en lugar de gobiernos y bancos. Su desaparición en 2011 evitó la centralización en torno a una figura autoritaria, permitiendo que Bitcoin se desarrollara como un proyecto verdaderamente descentralizado.",
+    "relatedInvention": 1,
+    "achievements": [
+      "Creador de Bitcoin y tecnología blockchain",
+      "Solución al problema del doble gasto sin autoridad central",
+      "Fundador de la ingeniería de sistemas descentralizados modernos",
+      "Inspiración de más de 20,000 criptomonedas y aplicaciones blockchain"
+    ]
+  },
+  {
+    "slug": "sam-altman",
+    "name": "Sam Altman",
+    "photo": "/img/inventores/samaltman.webp",
+    "birthYear": "1985",
+    "deathYear": "N/A",
+    "nationality": "Estadounidense",
+    "field": "Ingeniería de Inteligencia Artificial y Emprendimiento Tecnológico",
+    "biography": "Sam Altman es el CEO de OpenAI, la organización responsable de desarrollar ChatGPT y la serie de modelos GPT que han revolucionado la inteligencia artificial generativa. Comenzó su carrera tecnológica fundando Loopt (2005), una aplicación de geolocalización pionera, antes de convertirse en presidente de Y Combinator (2014-2019), la incubadora de startups más prestigiosa del mundo. En 2015, cofundó OpenAI con la misión ambiciosa de garantizar que la inteligencia artificial general (AGI) beneficie a toda la humanidad. Bajo su liderazgo visionario, OpenAI lanzó GPT-3, DALL-E, y finalmente ChatGPT, democratizando el acceso a IA de nivel mundial y desencadenando una revolución tecnológica comparable al nacimiento de internet.",
+    "engineeringContributions": "Aunque Altman no es un ingeniero de IA en el sentido tradicional, su contribución radica en la ingeniería organizacional, estratégica y de producto que permitió desarrollar los sistemas de IA más avanzados del mundo. Lideró la transición de OpenAI de organización sin fines de lucro a estructura híbrida con OpenAI LP, atrayendo miles de millones en inversión de Microsoft mientras mantenía la misión de seguridad de IA. Tomó decisiones de ingeniería de producto cruciales: hacer ChatGPT conversacional y accesible en lugar de solo una API técnica, implementar RLHF (aprendizaje por refuerzo con retroalimentación humana) para alineación de valores, y priorizar la interfaz de usuario intuitiva sobre complejidad técnica. Su visión de escalar dramáticamente el compute, datos y parámetros de modelos (ley de escalado) resultó ser correcta, llevando de GPT-2 (1.5B parámetros) a GPT-4 (estimados 1.7T parámetros).",
+    "legacy": "Altman será recordado como el líder que democratizó la inteligencia artificial avanzada, haciéndola accesible a miles de millones en lugar de solo investigadores y corporaciones tech. ChatGPT alcanzó 100 millones de usuarios en 2 meses, el crecimiento más rápido en historia de aplicaciones. Aceleró la adopción de IA en educación, programación, investigación científica, medicina y prácticamente todas las industrias. Su enfoque de 'despliegue iterativo' - lanzar productos de IA al público para aprender y mejorar continuamente - se convirtió en estándar de la industria. Catalizó inversiones superiores a $100 mil millones en IA generativa. También elevó debates cruciales sobre seguridad de IA, alineación de valores, riesgos existenciales, y gobernanza de sistemas superinteligentes, testificando ante el Congreso de EE.UU. sobre regulación de IA.",
+    "relatedInvention": 2,
+    "achievements": [
+      "CEO de OpenAI y líder del desarrollo de ChatGPT",
+      "Ex-presidente de Y Combinator",
+      "Democratizador de la inteligencia artificial avanzada",
+      "Visionario en seguridad y alineación de IA"
+    ]
+  },
+  {
+    "slug": "andy-jassy",
+    "name": "Andy Jassy",
+    "photo": "/img/inventores/andyjassy.jpg",
+    "birthYear": "1968",
+    "deathYear": "N/A",
+    "nationality": "Estadounidense",
+    "field": "Ingeniería de Cloud Computing e Infraestructura TI",
+    "biography": "Andy Jassy es el fundador y primer CEO de Amazon Web Services (AWS), la plataforma de computación en la nube que revolucionó la infraestructura tecnológica global. Comenzó en Amazon en 1997 como gerente de marketing, pero su visión transformadora surgió en los primeros 2000s cuando reconoció que la infraestructura interna que Amazon construyó para manejar picos de tráfico podía ofrecerse como servicio a otras empresas. Lanzó AWS oficialmente en 2006 con EC2 y S3, servicios que parecían radicales en su momento pero que redefinieron completamente la ingeniería de infraestructura. En 2021, sucedió a Jeff Bezos como CEO de Amazon, pero su legado permanece en AWS, que genera más de $80 mil millones anuales y alimenta gran parte de internet moderno.",
+    "engineeringContributions": "Jassy lideró la ingeniería de servicios fundamentales de cloud computing que establecieron el paradigma IaaS (Infrastructure as a Service). EC2 (Elastic Compute Cloud) virtualizó servidores permitiendo aprovisionamiento instantáneo bajo demanda. S3 (Simple Storage Service) creó almacenamiento infinitamente escalable con durabilidad de 99.999999999% mediante replicación distribuida. Implementó el modelo de pago por uso (pay-as-you-go) con facturación por segundo, eliminando compromisos de capital masivos. Diseñó arquitecturas de múltiples zonas de disponibilidad y regiones para alta disponibilidad y recuperación de desastres. Expandió AWS a más de 200 servicios: bases de datos administradas (RDS, DynamoDB), machine learning (SageMaker), serverless computing (Lambda), contenedores (ECS, EKS), redes globales, IoT, y blockchain. Su enfoque de ingeniería de producto prioriza APIs bien diseñadas, documentación exhaustiva, y compatibilidad hacia atrás estricta.",
+    "legacy": "Jassy creó la industria de cloud computing moderna, permitiendo que startups compitan con corporaciones gigantes con inversión mínima. AWS alimenta Netflix, Airbnb, Uber, NASA, y millones de aplicaciones. Facilitó la transformación digital de empresas tradicionales, permitiendo migración de centros de datos costosos a infraestructura elástica. Democratizó tecnologías avanzadas: cualquier desarrollador puede acceder a machine learning, big data, supercomputación que antes requerían presupuestos millonarios. Forzó a Microsoft (Azure) y Google (GCP) a competir, creando un mercado de $500 mil millones. Transformó la ingeniería de software mediante DevOps, CI/CD, microservicios e infraestructura como código. Generó millones de empleos en ingeniería cloud, arquitectura de soluciones, y administración de sistemas distribuidos.",
+    "relatedInvention": 3,
+    "achievements": [
+      "Fundador y primer CEO de Amazon Web Services (AWS)",
+      "Pionero del modelo IaaS (Infrastructure as a Service)",
+      "Creador de la industria de cloud computing moderna",
+      "Actual CEO de Amazon"
+    ]
+  },
+  {
+    "slug": "steve-jobs",
+    "name": "Steve Jobs",
+    "photo": "/img/inventores/stevejobs.jpg",
+    "birthYear": "1955",
+    "deathYear": "2011",
+    "nationality": "Estadounidense",
+    "field": "Ingeniería de Producto y Diseño de Interfaz Humano-Computadora",
+    "biography": "Steve Jobs fue el cofundador de Apple Inc. y uno de los visionarios tecnológicos más influyentes de la historia moderna. Aunque no era ingeniero en el sentido tradicional, poseía un genio singular para la ingeniería de producto: la capacidad de combinar tecnología avanzada, diseño elegante y experiencia de usuario intuitiva en dispositivos que la gente amara. Revolucionó múltiples industrias: computación personal (Apple II, Macintosh), animación (Pixar), música digital (iPod, iTunes), smartphones (iPhone), tablets (iPad), y retail tecnológico (Apple Stores). Su filosofía de diseño - simplicidad radical, integración vertical hardware-software, y obsesión por detalles - redefinió la ingeniería de productos de consumo. Falleció en 2011 de cáncer pancreático, pero su impacto perdura en cada smartphone, tablet y computadora moderna.",
+    "engineeringContributions": "Jobs no escribía código ni diseñaba circuitos, pero su contribución a la ingeniería fue metodológica y filosófica. Estableció el principio de integración vertical: controlar todo el stack desde chips (Apple Silicon) hasta software (iOS, macOS) y servicios (iCloud, App Store), permitiendo optimización imposible con componentes de terceros. Promovió ingeniería de interfaz humano-computadora centrada en el usuario: el mouse y GUI del Macintosh (inspirados en Xerox PARC), multi-touch del iPhone que eliminó stylus y teclados físicos, gestos intuitivos, y diseño skeuomórfico que hacía la tecnología familiar. Impulsó miniaturización extrema y eficiencia energética sin sacrificar rendimiento. El iPhone integró docenas de tecnologías (pantalla táctil capacitiva, acelerómetro, GPS, cámara digital, procesador ARM eficiente) en un dispositivo unificado de ingeniería asombrosa. Estableció el estándar de que los productos tecnológicos deben ser bellos, no solo funcionales.",
+    "legacy": "Jobs transformó Apple de una empresa casi en bancarrota (1997) a la corporación más valiosa del mundo. El iPhone redefinió la computación móvil, smartphones, fotografía, navegación y acceso a información, tocando prácticamente todos los aspectos de la vida moderna. La App Store creó una economía de $400 mil millones anuales y millones de empleos para desarrolladores globalmente. Su obsesión por experiencia de usuario estableció expectativas que todas las empresas tech deben cumplir. Inspiró generaciones de ingenieros y diseñadores a rechazar compromisos y perseguir excelencia implacable. Su discurso de Stanford (2005) - 'Stay hungry, stay foolish' - se convirtió en mantra para innovadores. Demostró que la ingeniería y el diseño no son disciplinas separadas sino inseparables para crear productos verdaderamente transformadores.",
+    "relatedInvention": 4,
+    "achievements": [
+      "Cofundador de Apple Inc. y revolucionario del iPhone",
+      "Pionero de interfaz gráfica de usuario (GUI) en computación personal",
+      "Creador de la economía de aplicaciones móviles (App Store)",
+      "Visionario de integración hardware-software vertical"
+    ]
+  },
+  {
+    "slug": "chuck-hull",
+    "name": "Chuck Hull",
+    "photo": "/img/inventores/chuckhull.jpg",
+    "birthYear": "1939",
+    "deathYear": "N/A",
+    "nationality": "Estadounidense",
+    "field": "Ingeniería Mecánica y Manufactura Aditiva",
+    "biography": "Charles 'Chuck' Hull es el inventor de la estereolitografía (SLA), la primera tecnología de impresión 3D comercial del mundo, patentada en 1986. Trabajando en una empresa de lámparas UV en los años 80, se frustró con el largo proceso de crear prototipos mediante métodos sustractivos tradicionales (mecanizado, moldeo). Experimentó usando luz UV para solidificar fotopolímeros capa por capa, creando objetos tridimensionales directamente desde diseños digitales. En 1983, creó la primera pieza impresa en 3D: una pequeña copa. Fundó 3D Systems en 1986, comercializando la primera impresora 3D (SLA-1) que costaba $100,000+. Su invención revolucionó el prototipado rápido, reduciendo ciclos de desarrollo de semanas a horas, y eventualmente transformó manufactura, medicina, aeroespacial y construcción.",
+    "engineeringContributions": "Hull desarrolló el proceso completo de ingeniería de manufactura aditiva por estereolitografía: un láser UV rasteriza patrones sobre resina fotosensible líquida, solidificando cada capa; una plataforma desciende incrementalmente (típicamente 25-100 micrones); capas sucesivas se fusionan químicamente creando el objeto completo; post-procesamiento incluye drenado de resina no curada, lavado con solventes, y curado UV final para resistencia máxima. Inventó el formato de archivo STL (Standard Tessellation Language) que se convirtió en estándar universal para representar geometrías 3D en manufactura aditiva, usado por todas las tecnologías de impresión 3D actuales. Desarrolló software de slicing que convierte modelos CAD 3D en instrucciones de fabricación capa por capa, resolviendo problemas de soportes, orientación óptima, y minimización de defectos. Su metodología de ingeniería estableció los fundamentos para FDM, SLS, DMLS y todas las variantes modernas.",
+    "legacy": "Hull creó una industria completamente nueva de manufactura aditiva valorada en decenas de miles de millones de dólares. La impresión 3D democratizó el prototipado y manufactura, permitiendo que diseñadores, ingenieros y makers creen productos customizados sin moldes costosos o mínimos de producción. En medicina, permitió prótesis personalizadas, implantes titanio customizados, modelos anatómicos pre-quirúrgicos y bioimpresión experimental de tejidos. En aeroespacial, SpaceX, Boeing y Airbus imprimen piezas complejas optimizadas topológicamente, reduciendo peso 40-60% y ahorrando combustible masivamente. Habilitó manufactura local distribuida, reduciendo cadenas de suministro globales y desperdicio de material. Recibió la Medalla Nacional de Tecnología e Innovación de EE.UU. (2014) y fue incluido en el Salón de la Fama de Inventores (2014).",
+    "relatedInvention": 5,
+    "achievements": [
+      "Inventor de la estereolitografía (SLA), primera tecnología de impresión 3D",
+      "Creador del formato de archivo STL, estándar universal de manufactura aditiva",
+      "Fundador de 3D Systems, pionero comercial de impresión 3D",
+      "Medalla Nacional de Tecnología e Innovación (2014)"
+    ]
+  },
+  {
+    "slug": "elon-musk",
+    "name": "Elon Musk",
+    "photo": "/img/inventores/elonmusk.webp",
+    "birthYear": "1971",
+    "deathYear": "N/A",
+    "nationality": "Sudafricano-Canadiense-Estadounidense",
+    "field": "Ingeniería Aeroespacial, Automotriz y Energética",
+    "biography": "Elon Musk es un ingeniero, emprendedor y visionario tecnológico que lidera múltiples empresas revolucionarias simultáneamente: Tesla (vehículos eléctricos y energía sostenible), SpaceX (cohetes reutilizables y exploración espacial), Neuralink (interfaces cerebro-computadora), y The Boring Company (túneles de transporte subterráneo). Cofundó PayPal en los primeros días de internet, vendido a eBay por $1.5 mil millones. Invirtió casi toda su fortuna en Tesla y SpaceX cuando ambas estaban al borde del colapso en 2008, arriesgándolo todo por su visión de transporte eléctrico y humanidad multiplanetaria. Contra todas las probabilidades, ambas empresas no solo sobrevivieron sino que transformaron industrias completas. Su enfoque de 'primeros principios' en ingeniería - cuestionar supuestos fundamentales y rediseñar desde cero - ha producido innovaciones que expertos consideraban imposibles.",
+    "engineeringContributions": "Musk participa directamente en ingeniería fundamental, no solo gestión. En SpaceX, lideró el diseño de cohetes reutilizables Falcon 9 que aterrizan verticalmente mediante propulsión retropropulsiva supersónica, reduciendo costos de lanzamiento 95%. Diseñó motores Merlin y Raptor (metano-oxígeno) internamente en lugar de comprarlos. En Tesla, impulsó la arquitectura de batería (miles de celdas cilíndricas 18650/2170/4680 en packs térmicamente gestionados), motores de inducción y reluctancia magnética de alta eficiencia, y sistemas de piloto automático con visión por computadora. Implementó integración vertical extrema: Tesla fabrica baterías, chips de IA (FSD Computer), motores, inversores, software, y hasta asientos internamente para optimización total. Promovió ingeniería iterativa rápida: diseñar, construir, probar, fallar, aprender, rediseñar - ejemplificado en explosiones de prototipos Starship que aceleran desarrollo.",
+    "legacy": "Musk aceleró la transición global a transporte eléctrico, demostrando que EVs pueden ser superiores a vehículos de combustión. Tesla vendió 1.8+ millones de vehículos en 2023, forzando a toda la industria automotriz a electrificarse. SpaceX domina lanzamientos orbitales globales (70%+), despliega Starlink (internet satelital global), y desarrolla Starship para colonización de Marte. Inspiró renacimiento de ingeniería ambiciosa: resolver problemas enormes (cambio climático, extinción humana) mediante tecnología avanzada. Sus empresas emplean decenas de miles de ingenieros trabajando en los problemas más difíciles de la humanidad. Popularizó manufactura vertical integrada y diseño desde primeros principios. Demostró que industrias 'maduras' (automotriz, aeroespacial) pueden ser completamente reinventadas por outsiders dispuestos a cuestionar dogmas.",
+    "relatedInvention": 6,
+    "achievements": [
+      "CEO de Tesla, revolucionario de vehículos eléctricos modernos",
+      "Fundador y CEO de SpaceX, pionero de cohetes reutilizables",
+      "Acelerador de la transición global a energía sostenible",
+      "Visionario de colonización multiplanetaria"
+    ]
+  },
+  {
+    "slug": "mark-zuckerberg",
+    "name": "Mark Zuckerberg",
+    "photo": "/img/inventores/markzuckerberg.jpg",
+    "birthYear": "1984",
+    "deathYear": "N/A",
+    "nationality": "Estadounidense",
+    "field": "Ingeniería de Software y Sistemas de Redes Sociales a Escala",
+    "biography": "Mark Zuckerberg fundó Facebook (ahora Meta) en 2004 desde su dormitorio de Harvard a los 19 años, creando la red social más grande de la historia humana con más de 3 mil millones de usuarios activos. Inicialmente diseñado como 'Facemash' para comparar fotos de estudiantes, evolucionó a 'TheFacebook' para conectar estudiantes universitarios, expandiéndose luego globalmente. Transformó Facebook de una startup universitaria a una corporación de $1 trillón que incluye Instagram, WhatsApp, y Reality Labs (VR/AR). Su visión de 'hacer el mundo más abierto y conectado' ha redefinido comunicación humana, aunque también generado controversias sobre privacidad, desinformación y poder corporativo. En 2021, renombró la empresa a Meta, apostando miles de millones al metaverso y realidad virtual como la próxima plataforma computacional.",
+    "engineeringContributions": "Zuckerberg lideró la ingeniería de sistemas distribuidos a escala masiva sin precedentes. Facebook maneja 3 mil millones de usuarios, 100 mil millones de mensajes diarios, 350 millones de fotos subidas diariamente, procesando petabytes de datos continuamente. Desarrolló infraestructura custom: Hack (lenguaje de programación), HipHop Virtual Machine (HHVM para PHP de alto rendimiento), React (biblioteca JavaScript de UI), GraphQL (lenguaje de consulta de APIs), Cassandra (base de datos distribuida), y sistemas de recomendación con machine learning que analizan billones de interacciones para personalizar feeds. Implementó edge computing global con centros de datos en múltiples continentes, optimización de redes mediante control de congestión, y compresión de video/imágenes a escala planetaria. Creó infraestructura de inteligencia artificial para moderación de contenido, traducción automática de 100+ idiomas, y reconocimiento facial.",
+    "legacy": "Zuckerberg creó la plataforma de comunicación más grande jamás construida, conectando más de un tercio de la humanidad. Facebook/Instagram/WhatsApp transformaron periodismo (noticias virales), política (campañas digitales, micro-targeting), comercio (social commerce), y socialización humana. Permitió movimientos sociales globales (Primavera Árabe), reconexión de familias separadas, y comunidades de interés nicho. Sin embargo, también enfrentó crisis: escándalo Cambridge Analytica (privacidad de datos), acusaciones de amplificar desinformación y polarización, impactos en salud mental de adolescentes, y debates sobre moderación de contenido vs. libertad de expresión. Está invirtiendo $10+ mil millones anuales en realidad virtual (Quest headsets) y aumentada (Project Aria), apostando que el metaverso será la próxima evolución de internet. Transformó ingeniería de software mediante open source de herramientas que benefician millones de desarrolladores globalmente.",
+    "relatedInvention": 7,
+    "achievements": [
+      "Fundador y CEO de Meta (Facebook, Instagram, WhatsApp)",
+      "Creador de la red social más grande de la historia (3 mil millones de usuarios)",
+      "Pionero de ingeniería de sistemas distribuidos a escala planetaria",
+      "Visionario del metaverso y computación social"
+    ]
+  },
+  {
+    "slug": "john-mashey",
+    "name": "John Mashey",
+    "photo": "/img/inventores/johnmashey.jpg",
+    "birthYear": "1946",
+    "deathYear": "N/A",
+    "nationality": "Estadounidense",
+    "field": "Ingeniería de Software y Ciencia de Datos",
+    "biography": "John Mashey es un científico de la computación pionero que popularizó el término 'Big Data' y contribuyó fundamentalmente al desarrollo de sistemas operativos Unix y arquitecturas RISC (Reduced Instruction Set Computing). Trabajó en Bell Labs en los 1970s-80s durante la era dorada de Unix, contribuyendo al shell de Unix y herramientas fundamentales. Posteriormente lideró ingeniería de software en Silicon Graphics Inc. (SGI), donde ayudó a desarrollar procesadores MIPS RISC que revolucionaron arquitectura de computadoras. En los 1990s, reconoció la explosión exponencial de datos digitales y acuñó el término 'Big Data' para describir datasets tan masivos que herramientas tradicionales no podían procesarlos, anticipando la revolución de análisis de datos del siglo 21.",
+    "engineeringContributions": "Mashey contribuyó a fundamentos de ingeniería de sistemas operativos modernos mediante trabajo en Unix shell, tuberías (pipes) para encadenar comandos, y filosofía de herramientas modulares pequeñas que hacen una cosa bien. Su trabajo en arquitecturas RISC en SGI/MIPS optimizó procesadores eliminando instrucciones complejas innecesarias, permitiendo pipelines más profundos, mayor frecuencia de reloj, y eficiencia energética superior - principios que dominan CPUs modernos (ARM, Apple Silicon). Reconoció tempranamente que el crecimiento exponencial de datos (ley de Moore aplicada a almacenamiento) requeriría nuevos paradigmas de ingeniería: procesamiento paralelo distribuido, algoritmos streaming, aproximaciones probabilísticas, y arquitecturas específicas para análisis de datos. Promovió técnicas de ingeniería de datos: compresión, indexación, particionamiento, y procesamiento en memoria para manejar datasets masivos.",
+    "legacy": "El término 'Big Data' que Mashey popularizó define una industria de cientos de miles de millones de dólares. Su visión de que datos masivos requerían ingeniería especializada fue validada con Hadoop, Spark, NoSQL, data warehouses columnares, y procesamiento distribuido. Contribuyó a Unix, el sistema operativo más influyente de la historia, base de Linux, macOS, Android e iOS que alimentan miles de millones de dispositivos. Su trabajo en RISC influenció procesadores ARM que dominan móviles (99% de smartphones) y cada vez más computación de alto rendimiento. Inspiró la profesión de Data Engineer, Data Scientist, y ingeniería de plataformas de datos. Demostró que reconocer tendencias tecnológicas tempranamente y desarrollar ingeniería apropiada crea ventajas competitivas masivas.",
+    "relatedInvention": 8,
+    "achievements": [
+      "Pionero del concepto 'Big Data' y análisis de datos masivos",
+      "Contribuidor fundamental a sistemas operativos Unix",
+      "Ingeniero clave en arquitecturas RISC (MIPS/SGI)",
+      "Visionario de procesamiento distribuido de datos"
+    ]
+  },
+  {
+    "slug": "esben-ostergaard",
+    "name": "Esben Østergaard",
+    "photo": "/img/inventores/esbenostergaard.jpg",
+    "birthYear": "1974",
+    "deathYear": "N/A",
+    "nationality": "Danés",
+    "field": "Ingeniería Robótica y Automatización Colaborativa",
+    "biography": "Esben Østergaard es el cofundador y CTO de Universal Robots, la empresa que creó y popularizó los robots colaborativos (cobots) - robots industriales diseñados para trabajar seguros junto a humanos sin barreras físicas. En 2005, mientras completaba su doctorado en ingeniería robótica en la Universidad del Sur de Dinamarca, junto con Kasper Støy y Kristian Kassow, tuvo la visión de crear robots industriales radicalmente diferentes: ligeros, fáciles de programar por personal no-técnico, rápidamente reconfigurables, y seguros para operación colaborativa. Lanzaron el primer cobot UR5 en 2008, demostrando que automatización industrial no requería ingenieros especializados, jaulas de seguridad costosas, o instalaciones permanentes. Su invención democratizó la robótica para PYMEs que no podían justificar robots tradicionales de $100,000+.",
+    "engineeringContributions": "Østergaard revolucionó ingeniería de robótica mediante diseño centrado en seguridad y usabilidad. Implementó sensores de fuerza/torque ultra-sensibles en todas las articulaciones que detectan contacto humano en milisegundos, deteniendo movimiento instantáneamente antes de causar lesión. Desarrolló cinemática de 6 grados de libertad con actuadores de torque limitado inherentemente seguros. Creó interfaz de programación gráfica revolucionaria donde usuarios 'enseñan' al robot físicamente guiando su brazo, grabando waypoints mediante touchscreen intuitivo - eliminando necesidad de código. Diseñó arquitectura modular donde el mismo brazo robot puede equiparse con diferentes end-effectors (pinzas, ventosas, herramientas) para tareas diversas. Optimizó precisión de posicionamiento (±0.1mm) y repetibilidad mediante control servo avanzado. Integró visión artificial, comunicación Ethernet/IO, y protocolos industriales estándar para interoperabilidad.",
+    "legacy": "Østergaard creó la categoría de robots colaborativos, ahora el segmento de más rápido crecimiento en robótica industrial (30%+ anual). Universal Robots vendió 50,000+ cobots globalmente, democratizando automatización para decenas de miles de empresas pequeñas. Permitió 'Industria 4.0' flexible donde robots se reconfiguran para productos diferentes en horas en lugar de semanas. Inspiró competidores (ABB YuMi, KUKA iiwa, Fanuc CR-series) validando el mercado. Transformó manufactura de bajo volumen / alta mezcla, permitiendo personalización masiva. Redujo lesiones laborales repetitivas mientras aumentó productividad y calidad. Demostró que ingeniería robótica debe optimizar para humanos (seguridad, usabilidad) no solo rendimiento técnico. Recibió múltiples premios de innovación y Universal Robots fue adquirido por Teradyne por $285 millones, validando el impacto comercial.",
+    "relatedInvention": 9,
+    "achievements": [
+      "Cofundador y CTO de Universal Robots, creador de cobots",
+      "Pionero de robots colaborativos seguros para humanos",
+      "Democratizador de automatización industrial para PYMEs",
+      "Innovador en interfaces humano-robot intuitivas"
+    ]
+  },
+  {
+    "slug": "roger-easton",
+    "name": "Roger L. Easton",
+    "photo": "/img/inventores/rogerleaston.jpg",
+    "birthYear": "1921",
+    "deathYear": "2014",
+    "nationality": "Estadounidense",
+    "field": "Ingeniería Aeroespacial y Sistemas de Navegación Satelital",
+    "biography": "Roger L. Easton fue el científico principal del Laboratorio de Investigación Naval de EE.UU. (NRL) y es considerado uno de los padres fundadores del Sistema de Posicionamiento Global (GPS). En los 1950s-60s, lideró el desarrollo de TIMATION (Time Navigation), un sistema experimental de navegación por satélite basado en medición precisa de tiempo. Su concepto revolucionario: colocar relojes atómicos ultra-precisos en satélites orbitales y usar la diferencia de tiempo de llegada de señales de radio para calcular posiciones mediante trilateración. Aunque el programa militar NAVSTAR GPS eventualmente combinó ideas de múltiples proyectos (incluyendo TIMATION de Easton y 621B de la Fuerza Aérea), las contribuciones fundamentales de Easton - especialmente relojes atómicos satelitales y algoritmos de posicionamiento - fueron cruciales para hacer GPS realidad.",
+    "engineeringContributions": "Easton resolvió desafíos monumentales de ingeniería aeroespacial. Desarrolló relojes atómicos de cesio y rubidio miniaturizados, resistentes a radiación y suficientemente estables para operar años en órbita - precisión de nanosegundos es crítica porque errores de 1 microsegundo causan errores de posición de 300 metros. Diseñó satélites TIMATION con paneles solares para energía continua, transmisores de señales de radio de alta precisión, y órbitas circulares a 20,200 km de altitud que balancean cobertura global, período orbital de 12 horas, y efectos relativísticos gestionables. Desarrolló algoritmos de trilateración que calculan posición 3D (latitud, longitud, altitud) resolviendo ecuaciones simultáneas de distancias a múltiples satélites. Implementó correcciones para relatividad general (gravedad terrestre) y especial (velocidad satelital) que afectan el tiempo - sin estas correcciones, GPS acumularía errores de 10 km diariamente.",
+    "legacy": "El GPS que Easton ayudó a crear es infraestructura crítica global con 4 mil millones de dispositivos. Revolucionó navegación terrestre, aérea y marítima, eliminando sextantes, mapas en papel y sistemas de navegación inercial costosos. Permitió agricultura de precisión que ahorra 30% de agua/fertilizantes, servicios de emergencia que localizan llamadas 911 automáticamente, logística global con rastreo de envíos en tiempo real, y geología/sismología que monitorea movimiento de placas tectónicas milimétricas. Aplicaciones inesperadas incluyen sincronización de tiempo para redes celulares, mercados financieros (timestamps de transacciones), y redes eléctricas. Sistemas complementarios (GLONASS, Galileo, BeiDou) siguieron su diseño. Recibió la Medalla Nacional de Tecnología (2006). Demostró que ingeniería visionaria combinando física fundamental (relatividad), tecnología (relojes atómicos), y matemáticas (trilateración) puede crear sistemas que transforman civilización.",
+    "relatedInvention": 12,
+    "achievements": [
+      "Padre fundador del Sistema de Posicionamiento Global (GPS)",
+      "Inventor del programa TIMATION de navegación satelital",
+      "Pionero de relojes atómicos satelitales ultra-precisos",
+      "Medalla Nacional de Tecnología (2006)"
+    ]
+  },
+  {
+    "slug": "frank-wang",
+    "name": "Frank Wang",
+    "photo": "/img/inventores/frankwang.webp",
+    "birthYear": "1980",
+    "deathYear": "N/A",
+    "nationality": "Chino",
+    "field": "Ingeniería Aeronáutica y Robótica de Drones",
+    "biography": "Frank Wang (Wang Tao) es el fundador y CEO de DJI (Da-Jiang Innovations), la empresa que domina el mercado global de drones civiles y comerciales con más del 70% de cuota de mercado. Apasionado por helicópteros de radiocontrol desde niño, estudió ingeniería electrónica en la Universidad Tecnológica de Hong Kong. En 2006, fundó DJI en su dormitorio con solo $800, inicialmente vendiendo controladores de vuelo para entusiastas de RC. Su visión: hacer drones tan fáciles de volar como conducir un auto, democratizando el acceso a perspectivas aéreas antes limitadas a helicópteros costosos. Lanzó el Phantom (2013), el primer drone ready-to-fly con cámara integrada y GPS, que se convirtió en fenómeno global. Innovaciones continuas en estabilización gimbal, visión por computadora, y autonomía de vuelo establecieron a DJI como líder indiscutible.",
+    "engineeringContributions": "Wang lideró múltiples innovaciones de ingeniería aeronáutica y robótica. Desarrolló sistemas de estabilización gimbal de 3 ejes que mantienen cámaras perfectamente niveladas durante vuelo turbulento, permitiendo video cinematográfico profesional. Implementó controladores de vuelo con IMU (unidad de medición inercial) de múltiples sensores que fusionan acelerómetros, giroscopios, magnetómetros y GPS para estabilidad automática - usuarios simplemente sueltan controles y el drone se mantiene estacionario. Creó sistemas de evitación de obstáculos mediante sensores de ultrasonido, infrarrojos, y visión estereoscópica que detectan y evitan colisiones automáticamente. Diseñó baterías LiPo inteligentes con circuitos de gestión que optimizan carga/descarga, balancean celdas, y previenen sobre-descarga. Desarrolló transmisión de video digital HD de baja latencia (OcuSync, Lightbridge) que funciona hasta 10+ km. Integró visión por computadora para tracking automático de sujetos, reconocimiento de gestos, y vuelo autónomo mediante waypoints.",
+    "legacy": "Wang democratizó la cinematografía aérea, reduciendo costos de tomas aéreas profesionales de $10,000+ (helicópteros) a cientos de dólares. DJI generó $2.8 mil millones en ingresos anuales, dominando drones de consumo (Mavic, Mini), profesionales (Inspire, Matrice), y agricultura (Agras). Transformó industrias: cine (Hollywood usa DJI extensivamente), inspección de infraestructura (puentes, torres, líneas eléctricas), búsqueda y rescate (500+ vidas salvadas anualmente), mapeo y topografía (fotogrametría 3D), agricultura de precisión (mapeo NDVI, fumigación), y seguridad pública. Inspiró regulaciones de drones (FAA Part 107 en EE.UU., regulaciones EASA en Europa) para integrar UAVs en espacio aéreo compartido. Validó drones de entrega (Amazon Prime Air, Wing, Zipline). Convirtió DJI en la startup tecnológica más valiosa de China. Demostró que ingeniería centrada en usabilidad, no solo especificaciones técnicas, crea productos que dominan mercados globales.",
+    "relatedInvention": 13,
+    "achievements": [
+      "Fundador y CEO de DJI, líder global de drones (70%+ cuota de mercado)",
+      "Democratizador de cinematografía y fotografía aérea",
+      "Pionero de sistemas de estabilización y visión por computadora en drones",
+      "Transformador de múltiples industrias mediante tecnología de drones"
+    ]
+  },
+  {
+    "slug": "palmer-luckey",
+    "name": "Palmer Luckey",
+    "photo": "/img/inventores/palmerluckey.webp",
+    "birthYear": "1992",
+    "deathYear": "N/A",
+    "nationality": "Estadounidense",
+    "field": "Ingeniería de Realidad Virtual y Óptica",
+    "biography": "Palmer Luckey es el fundador de Oculus VR, la empresa que reignitó la industria de realidad virtual moderna. Apasionado por VR desde adolescente, coleccionaba headsets vintage y experimentaba con modificaciones en el garaje de sus padres en California. A los 19 años, diseñó el prototipo Oculus Rift (2012), combinando pantallas de smartphone de alta resolución, lentes ópticas custom, sensores de movimiento, y campo de visión amplio (90°+) en un dispositivo relativamente liviano y económico. Lanzó una campaña Kickstarter que recaudó $2.4 millones, generando entusiasmo masivo. Facebook adquirió Oculus por $2 mil millones en 2014, validando VR como plataforma computacional del futuro. Aunque dejó Oculus en 2017, fundó Anduril Industries, empresa de tecnología de defensa que desarrolla sistemas autónomos con IA para seguridad nacional.",
+    "engineeringContributions": "Luckey resolvió desafíos de ingeniería óptica y ergonómica que habían plagado VR durante décadas. Utilizó pantallas OLED de smartphones (gracias a inversión masiva de industria móvil) con resolución 1080x1200 por ojo, refresh rate de 90Hz, y persistencia baja para eliminar motion blur. Diseñó lentes Fresnel custom que maximizan campo de visión (110°) mientras minimizan peso y distorsión. Implementó tracking de posición 6DOF (seis grados de libertad) mediante IMU de alta frecuencia y cámaras externas (Constellation tracking), permitiendo movimiento natural en espacio 3D. Optimizó ergonomía distribuyendo peso y usando materiales ligeros para sesiones prolongadas. Colaboró con ingenieros de Valve en latencia ultra-baja (motion-to-photon <20ms) crítica para prevenir mareo por movimiento. Creó SDK (Software Development Kit) que abstrae complejidad de VR para desarrolladores.",
+    "legacy": "Luckey catalizó el renacimiento de VR después de décadas de promesas incumplidas. Oculus Quest 2 vendió 15+ millones de unidades, convirtiéndose en el headset VR más exitoso de la historia. Inspiró competencia: HTC Vive, PlayStation VR, Valve Index, Apple Vision Pro. VR transformó gaming (Half-Life: Alyx, Beat Saber), entrenamiento profesional (pilotos, cirujanos, militares), terapia (PTSD, fobias), diseño industrial (CAD 3D inmersivo), y comunicación remota (Horizon Worlds, VRChat). Meta invirtió $36+ mil millones en desarrollo del metaverso basándose en la visión que Luckey inició. Demostró que hardware de consumo accesible ($300-400) podía ofrecer experiencias VR convincentes. Su trabajo en Anduril (torres de vigilancia autónomas, drones kamikaze, sistemas anti-drone) aplica principios de ingeniería similares: sensores avanzados, IA, y autonomía para resolver problemas críticos de seguridad nacional. A los 30 años, transformó dos industrias completamente diferentes.",
+    "relatedInvention": 14,
+    "achievements": [
+      "Fundador de Oculus VR, catalizador del renacimiento de realidad virtual",
+      "Creador del Oculus Rift, headset VR que reignitó la industria",
+      "Visionario de VR como plataforma computacional del futuro",
+      "Fundador de Anduril Industries, pionero en sistemas de defensa autónomos"
+    ]
+  },
+  {
+    "slug": "john-goodenough",
+    "name": "John B. Goodenough",
+    "photo": "/img/inventores/johngoodenough.jpg",
+    "birthYear": "1922",
+    "deathYear": "2023",
+    "nationality": "Estadounidense",
+    "field": "Ingeniería de Materiales y Electroquímica",
+    "biography": "John B. Goodenough fue un físico e ingeniero de materiales cuyo trabajo revolucionó el almacenamiento de energía portátil, permitiendo la era moderna de dispositivos electrónicos móviles y vehículos eléctricos. Desarrolló el cátodo de óxido de cobalto-litio (LiCoO₂) en 1980 mientras trabajaba en la Universidad de Oxford, que se convirtió en la base de las baterías de ion-litio modernas. Su invención aumentó dramáticamente la densidad energética de baterías recargables, permitiendo smartphones, laptops, tablets, herramientas inalámbricas, y EVs. Continuó investigando hasta más de 90 años, desarrollando cátodos mejorados (LiFePO₄ para seguridad) y explorando baterías de estado sólido. Recibió el Premio Nobel de Química en 2019 a los 97 años, convirtiéndose en el laureado de mayor edad en la historia del Nobel.",
+    "engineeringContributions": "Goodenough resolvió el desafío fundamental de ingeniería electroquímica: crear materiales de cátodo que permitan intercalación reversible de iones de litio con alto voltaje, alta densidad energética, y estabilidad a largo plazo. Su óxido de cobalto-litio (LiCoO₂) funciona a 4V comparado con ~1.5V de baterías convencionales, permitiendo el doble de densidad energética. Comprendió la cristalografía y química de estado sólido necesaria para diseñar estructuras en capas que acomodan iones de litio moviéndose dentro y fuera durante carga/descarga sin degradación estructural. Posteriormente desarrolló fosfato de hierro-litio (LiFePO₄), sacrificando algo de densidad energética por seguridad dramáticamente mejorada (no se incendia) y longevidad (miles de ciclos), ideal para vehículos eléctricos y grid storage. Contribuyó a comprensión teórica de transporte iónico, electrónica de estado sólido, y termodinámica de materiales de batería.",
+    "legacy": "Las baterías de ion-litio basadas en el trabajo de Goodenough alimentan prácticamente toda la tecnología portátil moderna: 6.8 mil millones de smartphones, 2+ mil millones de laptops, cientos de millones de tablets, herramientas eléctricas, drones, y millones de vehículos eléctricos. Habilitaron la revolución móvil: dispositivos poderosos que funcionan todo el día sin cables. Permitieron transición a energía renovable mediante grid storage que almacena electricidad solar/eólica intermitente. El mercado de baterías de ion-litio supera $50 mil millones anuales y crece exponencialmente. Su trabajo salvó al planeta billones de toneladas de emisiones de CO₂ al hacer vehículos eléctricos viables. Continuó investigando baterías de estado sólido (electrolito cerámico) que prometen densidades energéticas 2-3x superiores hasta sus últimos años. Falleció en 2023 a los 100 años, habiendo transformado completamente la civilización humana mediante ingeniería de materiales.",
+    "relatedInvention": 11,
+    "achievements": [
+      "Inventor del cátodo de óxido de cobalto-litio (LiCoO₂) para baterías de ion-litio",
+      "Premio Nobel de Química 2019 (laureado de mayor edad, 97 años)",
+      "Desarrollador de fosfato de hierro-litio (LiFePO₄) para seguridad mejorada",
+      "Habilitador de la era de dispositivos móviles y vehículos eléctricos"
+    ]
+  }
+]
