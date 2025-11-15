@@ -43,7 +43,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true, amount: 0.3 }}
         transition={{ duration: 0.6 }}
-        className=" flex text-lg md:text-7xl mb-4 text-white max-w-4xl font-semibold"
+        className=" flex text-2xl md:text-7xl mb-4 text-white max-w-4xl font-semibold"
       >
         Un poco de contexto<LoadingDots/>
       </motion.h2>
